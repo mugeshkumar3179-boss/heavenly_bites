@@ -1,0 +1,363 @@
+* {margin-right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #ffefdc;
+    color: #4c2c00;
+    font-family: monospace;
+}
+
+.navbar {
+    background-color: #ffffff;
+    color: #4c2c00;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+}
+
+.logo {
+    height: 45px;
+    position: static 50px ;
+    margin-top: 20px;
+    margin-left: 180px;
+
+}
+
+.title {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    padding-left: 30%;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.4s ease;
+
+}
+
+li:hover {
+
+    font-size: 20px;
+
+}
+
+a:hover {
+
+    color: rgb(255, 90, 90);
+    transform: translateY(10px);
+
+}
+
+a {
+    text-decoration: none;
+    color: #4c2c00;
+
+
+}
+
+.hero-section {
+    padding-top: 0px;
+    background-image: url("assets/images/cakeshop-bg.png");
+    width: 100%;
+    height: 600px;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+
+}
+#cakes{
+    justify-content:left;
+   margin-top:8%;
+}
+.c{
+    background-color: #a16027e7;
+    font-size: 80%;
+    margin-top: 10%;
+    border-radius: 100px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+    
+
+
+.c:hover{
+    background-color: rgb(42, 174, 250);
+    
+    
+}
+.hero-text {
+    margin-top: 12.4%;
+    margin-left:555px;
+    position: absolute;
+    top: 30%;
+    left: 9.5%;
+    background-color: #ffffffb1;
+    width: 100%;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+.htext{
+    padding-top:14%;
+}
+
+
+.product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.container {
+    height: 500px;
+    width: 30%;
+    border-radius: 5%;
+    background-color: #7575753a;
+    color: white;
+    margin: 20px;
+    transition: all 0.3s ease;
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 40%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+
+.container:hover {
+    transform: translateY(-10px);
+
+}
+
+
+img {
+    height: 80%;
+    width: 100%;
+    border-radius: 5%;
+
+
+}
+
+p {
+    font-size: 200%;
+    font-family: Poppins;
+    text-align: center;
+    color: #4c2c00;
+}
+
+.price {
+    padding-left: 25%;
+    color: #4c2c00
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ea0376;
+    display: inline;
+
+
+}
+
+button {
+    color: #fffeff;
+
+    background-color: #55b6ff;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #ea0376;
+}
+.anniversary{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.car{ display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.dol{
+    display: flex;
+    flex-wrap:wrap;
+}
+.cus{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.nor{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.bro{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+.A1{
+    background-color: #ff0a8d;
+    color:#fff9fc;
+    border-radius: 17px; box-shadow: 0 0 20px rgb(255, 0, 43);
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 50%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+.C1{
+    color:white;
+    background-color: #04326d; 
+      border-radius: 15px; box-shadow: 0 0 20px #04326d;
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 50%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+.D1{
+    background-color: #2d3e2c;
+    color:#e4fd97;
+    border-radius: 15px; box-shadow: 0 0 20px #2d3e2c;
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 50%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}  
+.C2{
+    background-color: #fd1843;
+    color:#f1e4e4;border-radius: 15px; box-shadow: 0 0 20px #fd1843;
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 50%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+.N1{
+    background-color: #004741;
+    color:#fffdfc;border-radius: 15px; box-shadow: 0 0 20px #004741;
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 50%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+.B1{
+    background-color: #741A2f;
+    color:#FFC6A8;border-radius: 15px; box-shadow: 0px 0px 20px #741A2f;
+animation: scroll linear;
+animation-timeline:view();
+animation-range: entry 0 cover 50%;
+
+}
+@keyframes scroll{
+    from{
+
+        scale:0.3;
+        opacity:0;
+
+    }
+    to{
+        scale:1;
+        opacity:1;
+    }
+}
+
+    
